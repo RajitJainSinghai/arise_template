@@ -287,7 +287,7 @@ textarea {
     }
 }
 .organiaLoader{
-    width: 209px;
+    width: 309px;
     height: 200px;
     position: absolute;
     left: 0;
@@ -305,6 +305,7 @@ textarea {
     transform: translateY(-50%);
     z-index: 1;
     line-height: 18px;
+    width: 300px;
     span {
         font-size: 50px;
         line-height: 14px;
