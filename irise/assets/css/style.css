@@ -201,8 +201,8 @@ textarea {
 
 .default-btn i {
   position: relative;
-  top: 5px;
-  padding-left: 5px;
+  top: 2px;
+  padding-left: 0px;
   font-size: 20px;
 }
 
@@ -450,16 +450,34 @@ ul.middle_ul_aderline {
   justify-content: end;
   align-items: center;
 }
-.col-lg-8 {
+.col-lg-8_header {
   flex: 0 0 auto;
   width: 930px !important;
 }
-.col-lg-4 {
+.col-lg-4_header {
   flex: 0 0 auto;
   width: 200px !important;
 }
 .col-lg-4.col-md-6.aos-init.aos-animate {
   width: 33.33% !important;
+}
+.services-content_for_height {
+  width: 100%;
+  text-align: left;
+  height: 430px;
+  position: relative;
+}
+a.default-btn.btn.for-card {
+  position: absolute;
+  bottom: 10px;
+  width: 200px;
+  margin: 0 auto;
+  left: 25px;
+  padding: 10px 20px;
+}
+p#block_under_paragraph {
+  text-align: left;
+  padding: 5px;
 }
 /*******rajit css*************************************/
 .tob-header-area {
@@ -2046,7 +2064,7 @@ Services Style
 ======================================================*/
 .single-services-card {
   background-color: #ffffff;
-  padding: 30px;
+  padding: 4px;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   position: relative;
