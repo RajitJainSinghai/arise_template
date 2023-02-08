@@ -139,6 +139,7 @@ p {
   font-family: "Poppins", sans-serif;
   color: #666666;
   line-height: 1.8;
+  font-weight: 600;
 }
 
 p:last-child {
@@ -456,7 +457,7 @@ ul.middle_ul_aderline {
 }
 .col-lg-4_header {
   flex: 0 0 auto;
-  width: 200px !important;
+  width: 250px !important;
 }
 .col-lg-4.col-md-6.aos-init.aos-animate {
   width: 33.33% !important;
@@ -467,7 +468,7 @@ ul.middle_ul_aderline {
   height: 430px;
   position: relative;
 }
-a.default-btn.btn.for-card {
+#services_buttons_changed {
   position: absolute;
   bottom: 10px;
   width: 200px;
@@ -479,6 +480,44 @@ p#block_under_paragraph {
   text-align: left;
   padding: 5px;
 }
+.icon_address {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 45px;
+  width: 45px;
+  color: #2C2C2C;
+  line-height: 45px;
+  background-color: #e5e5e5;
+  font-size: 18px;
+  color: #8d9bb6;
+  text-align: center;
+  border-radius: 5px;
+  z-index: 1;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.footer-address-area ul li span {
+  color: #bfbfbf;
+  font-weight: 500;
+}
+div#makingoncenter {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#model_card {
+  width: 30%;
+}
+.testimonials-area.ptb-100 {
+  padding-top: 0;
+}
+
+
+
 /*******rajit css*************************************/
 .tob-header-area {
   background-color: #2C2C2C;
@@ -578,7 +617,7 @@ p#block_under_paragraph {
 }
 
 .middle-header-area .container-fluid {
-  max-width: 1520px;
+  max-width: 1200px !important;
 }
 
 .middle-header-logo .logo-2 {
@@ -769,7 +808,7 @@ Navbar Area Style
 }
 
 .navbar-area.nav-style-3 {
-  background-color: #f4fbf6;
+  /* background-color: #f4fbf6; */
   border-bottom: 1px solid #ffffff;
 }
 
@@ -4784,10 +4823,10 @@ Footer Style
   color: #8d9bb6;
 }
 
-.footer-address-area ul li span {
+/* .footer-address-area ul li span {
   color: #ffffff;
   font-weight: 500;
-}
+} */
 
 .footer-address-area ul li .icon {
   position: absolute;
@@ -5605,6 +5644,7 @@ Go To Top Style
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   margin-bottom: 30px;
+  height: 300px;
 }
 
 .single-contact-card .icon {
