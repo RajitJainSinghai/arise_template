@@ -465,9 +465,10 @@ ul.middle_ul_aderline {
 .services-content_for_height {
   width: 100%;
   text-align: left;
-  height: 430px;
+  height: 330px;
   position: relative;
 }
+
 #services_buttons_changed {
   position: absolute;
   bottom: 10px;
@@ -512,9 +513,57 @@ div#makingoncenter {
 #model_card {
   width: 30%;
 }
-.testimonials-area.ptb-100 {
-  padding-top: 0;
+h5#making_margin {
+  margin: 20px;
 }
+.testimonials-area.ptb-100, div#blogging_space {
+  padding-top: 0 !important;
+}
+img.main-logo {
+  width: 250px !important;
+}
+#reviewers {
+  height: 300px;
+}
+.services_in_details {
+  width: 100%;
+  background: #f4fbf6;
+}
+span#chooseus {
+  color: #8d9bb6;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.discovery {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.services-area.pt-100.pb-70 {
+  padding: 0;
+}
+h1#Discovery, h1#Evaluation, h1#Implementation {
+  padding-top: 70px;
+}
+h5.aboutus_para {
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+#model_card {
+  width: 300px;
+}
+div#makingtheboxcenter {
+  display: flex;
+  justify-content: center;
+}
+li#containdata{
+font-size: 18px;
+font-weight: 600;
+list-style: circle;
+}
+
 
 
 
